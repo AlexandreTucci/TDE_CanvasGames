@@ -1,0 +1,19 @@
+.relogio { width: 300px; height: 300px; border: 10px solid #BF9056; border-radius: 10%; position: relative; margin: 50px auto; background-color: #D9B384;}
+
+.marcacoes { position: absolute; width: 100%; height: 100%;}
+
+.ponteiro { position: absolute; transform-origin: 50% 100%; bottom: 50%; left: 50%;}
+
+.horas { width: 8px; height: 80px; margin-left: -4px; background-color: #BF9056; border-radius: 4px;}
+
+.minutos { width: 4px; height: 120px; margin-left: -2px; background-color: #A66D3C; border-radius: 10px;}
+
+.segundos { width: 2px; height: 130px; margin-left: -1px; background-color: #733E1F;}
+
+.centro { position: absolute; width: 17px; height: 17px; background-color: #733E1F; border-radius: 40%; top: 50%; left: 50%; margin-left: -10px; margin-top: -10px; z-index: 10;}
+
+.numero { position: absolute; font-size: 18px; font-weight: bold; color: #242424;}
+
+.ponteiro { transition: transform 0.5s cubic-bezier(0.4, 2.3, 0.3, 1);}
+
+.sol { pointer-events: none;}
